@@ -1,0 +1,102 @@
+.main-bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-container {
+  width: 90%;
+  max-width: 320px;
+  background-color: #150b3e;
+  border-radius: 12px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.profile-section {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+.profile-logo {
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+  padding-bottom: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #7c3aed;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.profile-name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 22px;
+  margin-left: 10px;
+}
+.balance-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* border: 1px solid white; */
+}
+.your-balance-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 20px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.balance-amount {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 13px;
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.in-rupee-text {
+  color: #585076;
+  font-family: 'Roboto';
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+.denominations-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.withdraw-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  /* margin-top: 13px; */
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.choose-text {
+  color: #585076;
+  font-family: 'Roboto';
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 17px;
+  
+}
+.denomination-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
